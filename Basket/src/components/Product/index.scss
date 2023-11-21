@@ -1,0 +1,25 @@
+.product {
+    width: 25%;
+    .product-content {
+        .product-img {
+            object-fit: cover;
+            
+        }
+        .product-title {
+            display: flex;
+            align-items: center;
+            
+        }
+        .product-buttons {
+            button {
+                cursor: pointer;
+                border:1px solid #ccc;
+                padding: 5px 10px;
+                outline: none;
+                background: none;
+                font-size: 18px;
+            }
+        }
+        
+    }
+}
